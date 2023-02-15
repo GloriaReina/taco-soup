@@ -35,7 +35,7 @@ How many students got B's?
 Which was the most common letter grade?
 What was the average percentage grade in the class?*/
 
-let numberOfStudentAs = 0
+/*let numberOfStudentAs = 0
 let numberOfStudentBs = 0
 let numberOfStudentCs = 0
 let numberOfStudentDs = 0
@@ -58,27 +58,46 @@ for(let i =0; i < grades.length;i++){
     console.log(`The number of students with Bs: ${numberOfStudentBs}`)
     console.log(`The number of students with Cs: ${numberOfStudentCs}`)
     console.log(`The number of students with Ds: ${numberOfStudentDs}`)
-    console.log(`The number of students with Fs: ${numberOfStudentFs}`)
+    console.log(`The number of students with Fs: ${numberOfStudentFs}`)*/
    
 
-let mostcommongrade = 0
+/*let mostcommongrade = 0
 
-/*if(numberOfStudentAs > mostcommongrade){
+if( mostcommongrade < numberOfStudentAs){
     mostcommongrade= numberOfStudentAs
-    console.log(mostcommongrade)
-} else if(numberOfStudentBs >mostcommongrade){
+    console.log(mostcommongrade = "A")
+} else if(mostcommongrade < numberOfStudentBs){
     mostcommongrade=numberOfStudentBs
-    console.log(mostcommongrade)
-}else if(numberOfStudentCs >mostcommongrade){
+    console.log(mostcommongrade = "B")
+}else if(mostcommongrade < numberOfStudentCs){
     mostcommongrade= numberOfStudentCs
-    console.log(mostcommongrade)
-}else if(numberOfStudentDs >mostcommongrade){
+    console.log(mostcommongrade = "C")
+}else if(mostcommongrade < numberOfStudentDs){
     mostcommongrade= numberOfStudentDs
-    console.log(mostcommongrade)
-}else if(numberOfStudentFs >mostcommongrade){
+    console.log(mostcommongrade = "D")
+}else if(mostcommongrade < numberOfStudentFs){
     mostcommongrade= numberOfStudentFs
-    console.log(mostcommongrade)
+    console.log(mostcommongrade = "F")
+}*/
+
+
+
+/*let averageofgrades = 0/grades.length
+for(let i= 0; i<grades.length;i++){
+    averageofgrades+= (grades[i])/grades.length
 }
+console.log(Math.ceil(averageofgrades))*/
 
+/*Two, Four, Six, Eight - Who do we appreciate?! CHEER
+Write a loop that counts by 2's and creates the following output.
+Output
+2 4 6 8 Who do we appreciate?!*/
 
-let averagepercentgrade = 0*/
+let numbersArray = [1,2,3,4,5,6,7,8,9]
+for(let i = 0; i < numbersArray.length; i++){
+    if(numbersArray[i]/ 2 === 0){
+        console.log(numbersArray)
+    } else {
+        console.log("This is an odd number")
+    }
+}
